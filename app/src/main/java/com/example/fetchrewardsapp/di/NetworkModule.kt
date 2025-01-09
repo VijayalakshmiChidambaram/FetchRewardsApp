@@ -1,5 +1,7 @@
-package com.example.fetchrewardsapp.data
+package com.example.fetchrewardsapp.di
 
+import com.example.fetchrewardsapp.data.ApiService
+import com.example.fetchrewardsapp.data.ItemRepository
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
